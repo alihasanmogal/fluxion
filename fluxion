@@ -716,7 +716,7 @@ case $detectedresolution in
 	"1024x768" ) resB ;;
 	"1280x768" ) resC ;;
 	"1366x768" ) resC ;;
-	"1280x1024" ) resD ;;
+	"128x1024" ) resD ;;
 	"1600x1200" ) resE ;;
 	"1366x768"  ) resF ;;
 		  * ) resA ;;
@@ -743,8 +743,7 @@ function language {
 			
 		done 
 		
-		rm -rf $WORK_DIR
-		rm -rf /tmp/TMPflux
+			rm -rf /tmp/TMPflux
 		rm -rf /root/handshakes
 		rm -rf /root/pwlog
 
